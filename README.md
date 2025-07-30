@@ -6,7 +6,7 @@ Part 2 Journal:
 
 Resources: What out-of-class resources were used in the development process? Cite any AI used, as well as code reference websites.
 
-    I mainly used the Surfboard assignment to do this part, and ChatGPT to help me figure out that it was the getLine function that I was missing. 
+    I mainly used the Surfboard assignment to do this part, and ChatGPT to help me figure out that it was the getLine function that I was missing.
 
 Optional: A summary of what when well, and what could have gone smoother. What parts were challenging? What parts were unable to be finished on time?
 

@@ -37,11 +37,33 @@ SmoothieList inventory;
         string hold;
         string newIngredients;
         Smoothie newSmoothie;
+        string temp = ""; 
 		switch (choice){
 		case 1:
 			cout << "Enter Ingredients: ";
 			getline(cin, ingredients);
+            //makes sure input is a number and not text
+
 			cout << "Enter Price: ";
+            cin >> temp;
+            while (!isdigit(temp[0])) {
+                cout << "Invalid input. Please enter a valid price: ";
+                cin >> temp;
+            }
+            price = stoi(temp);
+            
+            cout << "Enter Cost: ";
+            cin >> temp;
+            while (!isdigit(temp[0])) {
+                cout << "Invalid input. Please enter a valid cost: ";
+                cin >> temp;
+            }
+            price = stoi(temp);
+            while (!isdigit(temp[0])) {
+                cout << "Invalid input. Please enter a valid cost: ";
+                cin >> temp;
+            }
+
 			cin >> price;
             cout << "Enter Cost: ";
             cin >> cost;
